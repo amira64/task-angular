@@ -1,0 +1,31 @@
+<section class="vh-100" style="background-color: hsl(194, 54%, 71%);">
+    
+       <div class="container py-5 h-100">
+        
+      <div class="row d-flex justify-content-center align-items-center h-100">
+        <div class="col-12 col-md-8 col-lg-6 col-xl-5">
+          <div class="card shadow-2-strong" style="border-radius: 1rem;">
+            <div class="card-body p-5 text-center">
+  
+                <div class="card-body">
+                    <h4 class="card-title">Students <span style="color: hsl(199, 100%, 32%);">{{ details }}</span></h4>
+                    <p class="card-text"><input type="text" (input)="onStudentNameChange($event)"
+                            placeholder="Enter student's name..."></p>
+                    <h5 *ngIf="studentName" class="card-title">Student's Name: <span style="color: red;">{{
+                            studentName }}</span></h5>
+                    <a href="#" class="btn btn-primary" routerLink="student">Go to student mark</a>
+                    <br><br><br><br>
+                    <img src="https://freepngimg.com/save/166435-college-student-png-file-hd/800x420" align="center"  width="400" height="260" alt="Login Image" />
+                </div>
+             
+  
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+         
+         
